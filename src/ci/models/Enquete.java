@@ -48,7 +48,7 @@ public class Enquete {
 
     public void afficher2() {
         System.out.println(
-            "Mon enquête " + this.id + this.titre + " se situe dans le cadre " + this.typeEnquete); 
+            "Mon enquête " + this.id + "  " + this.titre + "  " + " se situe dans le cadre " + this.typeEnquete.getClass()); 
 }
 }
 
