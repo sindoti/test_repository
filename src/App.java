@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 import ci.models.Enquete;
 import ci.models.TypeEnquete;
 
@@ -21,5 +24,15 @@ public class App {
 
         Enquete enquete2 = new Enquete(2, "desPartenaires", "se situe", typenquete2);
         enquete2.afficher2();
+
+        System.out.println("-------------------------------------------------------------------");
+
+        List<Enquete> enquetes = new ArrayList<>();
+        enquetes.add(enquete1);
+        enquetes.add(enquete2);
+        for (Enquete enquet : enquetes) {
+            enquet.afficher2();
+        }
+
         }
     }

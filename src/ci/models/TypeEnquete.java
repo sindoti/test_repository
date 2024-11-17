@@ -31,7 +31,7 @@ public class TypeEnquete {
         return libelle;
     }
 
-    public void setLibelle(String libelle) {
+    public void setLibelle(String libelle) { 
         this.libelle = libelle;
     }
 
