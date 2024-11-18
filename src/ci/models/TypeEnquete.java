@@ -37,6 +37,6 @@ public class TypeEnquete {
 
     public void afficher() {
         System.out.println(
-            "Mon enquête est de type : " + this.libelle + ", de Id " + " : " + this.id + " et de code " + " : " + this.code);
+            "d'une enquête est de type " + this.libelle + ", de Id " + " " + this.id + " et de code" + "  " + this.code);
 }
 }
